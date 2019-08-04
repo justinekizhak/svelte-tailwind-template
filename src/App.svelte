@@ -1,12 +1,7 @@
-<script>
-  import Button from "./Button.svelte";
-</script>
+<script></script>
 
-<style lang="text/postcss">
-
-</style>
+<style></style>
 
 <main>
-  <h1 class="text-3xl text-red-600">Hello !</h1>
-  <Button />
+  <h1 class="text-3xl text-red-600">Hello World!</h1>
 </main>

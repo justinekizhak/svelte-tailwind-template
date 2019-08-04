@@ -1,41 +1,51 @@
-# tailwindcss-svelte-starter
+# Svelte Tailwind template <!-- omit in toc -->
 
 A starter for building Svelte web apps with tailwindcss.
+
+- [Getting Started](#getting-started)
+- [Building and Developing](#building-and-developing)
+  - [Build](#build)
+  - [Development](#development)
+- [Credits](#credits)
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/marcograhl/tailwindcss-svelte-starter
+degit gitlab:justinekizhak/svelte-tailwind-template my-project
 ```
 
 Then, install the dependencies:
 
 ```bash
-npm install
+yarn install # or npm install
 ```
 
-Use Tailwindcss (https://tailwindcss.com/)
+Use [Tailwindcss](https://tailwindcss.com/)
 
 ## Building and Developing
 
 ### Build
 
 ```bash
-npm run build
+yarn build # or npm run build
 ```
 
 ### Development
 
 Development mode will:
 
--  build on file change
--  serve locally at <code>localhost:5000</code>
--  live reload
+- build on file change
+- serve locally at <code>localhost:5000</code>
+- live reload
 
 ```bash
-npm run dev
+yarn run dev # or npm run dev
 ```
 
 ## Credits
 
-Inspired by [sveltejs/template](https://github.com/sveltejs/template)
+Inspired and forked from:
+
+- [sveltejs/template](https://github.com/sveltejs/template)
+- [marcograhl/tailwindcss-svelte-starter](https://github.com/marcograhl/tailwindcss-svelte-starter)
+- [noprodev/svelte-starter-postcss](https://github.com/noprodev/svelte-starter-postcss)
